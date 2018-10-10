@@ -1,0 +1,20 @@
+url: http://flexwarm.com
+
+title: Flexwarm
+
+keywords: Flexwarm
+
+description: Flexwarm
+
+permalink: /products/:title.html
+
+address: Zi Ni Tang Creative Center,No.5 Xi-an Road,Panyu District,Guangzhou,China
+
+tel: +86-020-34833982
+
+email: contact@flexwarm.com
+
+relative_permalinks: false
+
+exclude:
+  - README.md

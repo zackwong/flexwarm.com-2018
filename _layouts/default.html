@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.full_title %}{{ page.full_title }}{% else %}{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/flexwarm-icon.jpg">
+    <meta name="apple-mobile-web-app-title" content="Flexwarm">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/assets/application.css">
+  </head>
+  <body class="header-fixed">
+    <div class="wrapper">
+      <div class="header-v5 header-static">
+        <div class="topbar-v3">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <ul class="left-topbar">
+                  <li><a href="mailto:{{ site.email }}">Email: {{ site.email }}</a></li>
+                  <li><a href="tel:{{ site.tel }}">Tel: {{ site.tel }}</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list-inline right-topbar pull-right">
+                  <li><a href="http://www.flexwarm.com" target="_blank">语言 (中文)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-default mega-menu" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{ site.url }}"><img id="logo-header" src="/images/assets/flexwarm-logo.png" alt="Flexwarm Logo"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+              <ul class="nav navbar-nav">
+                <li class="{% if page.category == 'home' %}active{% endif %}"><a href="{{ site.url }}">Home</a></li>
+                <li class="{% if page.category == 'about' %}active{% endif %}"><a href="{{ site.url }}/about/">About</a></li>
+                <li class="{% if page.category == 'products' %}dropdown mega-menu-fullwidth active{% else %}dropdown mega-menu-fullwidth{% endif %}">
+                  <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Products</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="mega-menu-content">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                              <h3 class="mega-menu-heading">Smart Heated Shawl</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["smart-heated-shawl"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/smart-heated-shawl/">More</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                              <h3 class="mega-menu-heading">Smart Thermo Waist Belt</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["smart-thermo-waist-belt"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/smart-thermo-waist-belt/">More</a></li>
+                              </ul>                             
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                              <h3 class="mega-menu-heading">Nuangong Waist Belt</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["nuangong-waist-belt"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/nuangong-waist-belt/">More</a></li>
+                              </ul>
+                              <h3 class="mega-menu-heading">Baby Carriage</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["baby-carriage"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/baby-carriage/">More</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                              <h3 class="mega-menu-heading">Feeding Bottle</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["feeding-bottle"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/feeding-bottle/">More</a></li>
+                              </ul>
+                              <h3 class="mega-menu-heading">Ceramic Heating Film</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["ceramic-heating-film"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/ceramic-heating-film/">More</a></li>
+                              </ul>
+                              <h3 class="mega-menu-heading">Glass Heating Film</h3>
+                              <ul class="list-unstyled style-list">{% for post in site.categories["glass-heating-film"] limit:3 %}
+                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+                                <li><a href="{{ site.url }}/glass-heating-film/">More</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="{% if page.category == 'the-tech' %}active{% endif %}"><a href="{{ site.url }}/the-tech/">The Tech</a></li>
+                <li class="{% if page.category == 'support' %}dropdown active{% else %}dropdown{% endif %}">
+                  <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000">Support</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ site.url }}/app/">Download APP</a></li>
+                    <li><a href="{{ site.url }}/thick-film-heating-system/">Thick-film Heating System</a></li>
+                  </ul>
+                </li>
+                <li class="{% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
+                <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ content }}
+      <div id="footer-v2" class="footer-v2">
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 md-margin-bottom-40">
+                <a href="{{ site.url }}"><img id="logo-footer" class="footer-logo" src="/images/assets/flexwarm-logo.png" alt="Flexwarm Logo"></a>
+                <address class="md-margin-bottom-40">
+                  <i class="fa fa-home"></i>{{ site.address }}<br>
+                  <i class="fa fa-phone"></i>{{ site.tel }}<br>
+                  <i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </address>
+                <ul class="social-icons">
+                  <li><a href="https://www.facebook.com/flexwarm" target="_blank" data-original-title="Facebook" class="rounded-x social_facebook"></a></li>
+                  <li><a href="https://twitter.com/getflexwarm" target="_blank" data-original-title="Twitter" class="rounded-x social_twitter"></a></li>
+                  <li><a href="#" target="_blank" data-original-title="Youtube" class="rounded-x social_youtube"></a></li>
+                  <li><a href="#" target="_blank" data-original-title="Linkedin" class="rounded-x social_linkedin"></a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 md-margin-bottom-40">
+                <div class="posts">
+                  <div class="headline"><h2 class="heading-sm">News</h2></div>
+                  <ul class="list-unstyled latest-list">{% for post in site.categories["news"] limit:3 %}
+                    <li>
+                      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                      <small>{{ post.date | date_to_string }}</small>
+                    </li>{% endfor %}
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-5 md-margin-bottom-40">
+                <div class="headline"><h2 class="heading-sm">Products</h2></div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="list-unstyled link-list">
+                      <li><a href="{{ site.url }}/smart-heated-shawl/">Smart Heated Shawl</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{ site.url }}/smart-thermo-waist-belt/">Smart Thermo Waist Belt</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-unstyled link-list">
+                      <li><a href="{{ site.url }}/baby-carriage/">Baby Carriage</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{ site.url }}/feeding-bottle/">Feeding Bottle</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{ site.url }}/ceramic-heating-film/">Ceramic Heating Film</a><i class="fa fa-angle-right"></i></li>
+                      <li><a href="{{ site.url }}/glass-heating-film/">Glass Heating Film</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <p class="text-center">Copyright © 2015-2018 Guangdong Flexwarm Advanced Materials & Technology Co., Ltd | <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16043562号-1</a> | <a href="{{ site.url }}/Sitemap.xml" target="_blank">Sitemap</a> | Website design by <a href="https://gdky.net" target="_blank">OSW</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/assets/application.js"></script>
+    <!--[if lt IE 9]>
+      <script src="/assets/respond.js"></script>
+      <script src="/assets/html5shiv.js"></script>
+      <script src="/assets/placeholder-IE-fixes.js"></script>
+    <![endif]-->
+  </body>
+</html>

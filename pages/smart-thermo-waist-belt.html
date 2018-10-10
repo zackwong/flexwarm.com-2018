@@ -1,0 +1,19 @@
+---
+layout: pages
+permalink: /smart-thermo-waist-belt/
+category: products
+title: Smart Thermo Waist Belt
+---
+<div class="interactive-slider-v2 margin-top-40">
+  <div class="container">{% for post in site.categories["smart-thermo-waist-belt"] %}
+    <div class="row">
+      <div class="col-md-5 col-sm-12 col-xs-12 col-md-offset-1 promo-info animated fadeInLeft wow" style="padding:{{ post.ui }}">    
+        <h1><b>{{ post.title }}</b></h1>
+        <p>{{ post.subtitle }}</p>
+        <a href="{{ site.url }}{{ post.url }}" class="btn btn-lg rounded btn-warning"><i class="fa fa-search"></i> Learn More</a>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12 overflow-h margin-top-30"><img class="img-responsive animated fadeInRight wow" src="/images/{{ post.type-en }}/{{ post.image }}.jpg" alt="{{ post.title }}"></div>
+    </div>
+    <hr>{% endfor %}
+  </div>
+</div>
