@@ -189,14 +189,7 @@
                   <li class=""><a href="" data-toggle="modal" data-target="#login">Login</a></li>
                 </ul>
               </li>
-              <li class="dropdown singleDrop ">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shortcodes</a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li class=""><a href="accordion-and-toggles.html">Accordions &amp; Toggles</a></li>
-                  <li class=""><a href="tabs-and-dropdown.html">Tabs &amp; Dropdowns</a></li>
-                  <li class=""><a href="pricing-table.html">Pricing Tables</a></li>
-                </ul>
-              </li>
+              <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
             </ul>
           </div>
         </div>
