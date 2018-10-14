@@ -29,10 +29,10 @@
       <script src="/assets/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="body-wrapper changeHeader">
+  <body class="body-wrapper {% if page.category == 'home' %}changeHeader{% endif %}">
     <div class="main-wrapper">
       <header>
-        <nav class="navbar navbar-default navbar-main navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-default navbar-main navbar-fixed-top {% if page.category == 'home' %}{% else %}lightHeader{% endif %}" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -197,17 +197,6 @@
                   <li class=""><a href="pricing-table.html">Pricing Tables</a></li>
                 </ul>
               </li>
-              <li class="dropdown searchBox">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="searchIcon"><i class="fa fa-search" aria-hidden="true"></i></span></a>
-                <ul class="dropdown-menu dropdown-menu-right">
-                  <li>
-                    <span class="input-group">
-                      <input type="text" class="form-control" placeholder="Search..." aria-describedby="basic-addon2">
-                      <span class="input-group-addon" id="basic-addon2">Search</span>
-                    </span>
-                  </li>
-                </ul>
-              </li>
             </ul>
           </div>
         </div>
@@ -282,105 +271,20 @@
   </div>
   <div class="copyRight clearfix">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-sm-push-6 col-xs-12">
-          <ul class="list-inline">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-6 col-sm-pull-6 col-xs-12">
-          <div class="copyRightText">
-            <p>Copyright © 2016. All Rights Reserved by <a target="_blank" href="http://www.iamabdus.com/">Abdus</a>.</p>
+
+        <div class="col-sm-12 col-xs-12">
+          <div class="copyRightText text-center">
+            <p>Copyright © 2016-2018 Guangdong Flexwarm Advanced Materials & Technology Co., Ltd | <a href="{{ site.url }}/Sitemap.xml" target="_blank">Sitemap</a> | Website design by <a href="https://gdky.net" target="_blank">OSW</a></p>
           </div>
-        </div>
+
       </div>
     </div>
   </div>
 </footer>
 </div>
 
-<!-- Signup Modal -->
-<div class="modal fade signupLoging" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content modalContentCustom">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Create your account</h4>
-      </div>
-      <div class="modal-body">
-        <form method="post" action="">
-          <div class="form-group">
-            <input type="text" class="form-control bg-ash" id="exampleInputEmail1" placeholder="Full Name">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> I agree to the terms of use and privacy.
-            </label>
-          </div>
-          <button type="submit" class="btn btn-default">Login</button>
-        </form>
-        <div class="or">
-          or
-        </div>
-        <a class="btn btn-default btnSocial"  href="#">Log in with facebook</a>
-      </div>
 
-      <div class="modal-footer">
-          <div class="dontHaveAccount">
-            <p>Don’t have an Account?<a href=""> Sign up</a></p>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Login Modal -->
-<div class="modal fade signupLoging" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content modalContentCustom">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Log in to your account</h4>
-      </div>
-      <div class="modal-body">
-        <form method="post" action="">
-          <div class="form-group">
-            <input type="email" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control bg-ash" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
-            <a class="forgotPass clerfix" href="">Fogot Password?</a>
-          </div>
-          <button type="submit" class="btn btn-default">Login</button>
-        </form>
-        <div class="or">
-          or
-        </div>
-        <a class="btn btn-default btnSocial"  href="#">Log in with facebook</a>
-      </div>
-
-      <div class="modal-footer">
-          <div class="dontHaveAccount">
-            <p>Don’t have an Account?<a href=""> Sign up</a></p>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- JAVASCRIPTS -->
 <script src="/plugins/jquery/jquery-2.2.4.min.js"></script>
