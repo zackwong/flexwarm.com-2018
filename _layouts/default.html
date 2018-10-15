@@ -11,22 +11,22 @@
     <meta name="applicable-device" content="pc,mobile">
     <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/flexwarm-icon.jpg">
     <meta name="apple-mobile-web-app-title" content="Flexwarm">
-    <link href="/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-    <link href="/assets/bootstrap.css" rel="stylesheet">
-    <link href="/assets/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/plugins/selectbox/select_option1.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/datepicker/datepicker.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/isotope/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="/plugins/isotope/isotope.css">
-    <link rel="stylesheet" href="/plugins/revolution/css/settings.css">
-    <link rel="stylesheet" href="/plugins/revolution/css/layers.css">
-    <link rel="stylesheet" href="/plugins/revolution/css/navigation.css">
+    <link href="{{ site.url }}/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/selectbox/select_option1.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/datepicker/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/isotope/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/isotope/isotope.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/navigation.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/colors/default.css" id="option_color">
+    <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/css/colors/default.css" id="option_color">
     <!--[if lt IE 9]>
-      <script src="/assets/html5shiv.min.js"></script>
-      <script src="/assets/respond.min.js"></script>
+      <script src="{{ site.url }}/assets/html5shiv.min.js"></script>
+      <script src="{{ site.url }}/assets/respond.min.js"></script>
     <![endif]-->
   </head>
   <body class="body-wrapper {% if page.category == 'home' %}changeHeader{% endif %}">
@@ -45,7 +45,8 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}">Contact Us</a></li>
+                <li class="{% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
+                <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
               </ul>
             </div>
           </div>
@@ -53,21 +54,21 @@
       </header>
       {{ content }}
     </div>
-    <script src="/plugins/jquery/jquery-2.2.4.min.js"></script>
-    <script src="/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/plugins/jquery-ui/jquery-ui.min.js"></script>
-    <script src="/assets/bootstrap.min.js"></script>
-    <script src="/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-    <script src="/plugins/datepicker/bootstrap-datepicker.js"></script>
-    <script src="/plugins/jquery/waypoints.min.js"></script>
-    <script src="/plugins/counter-up/jquery.counterup.min.js"></script>
-    <script src="/plugins/isotope/isotope.min.js"></script>
-    <script src="/plugins/isotope/jquery.fancybox.pack.js"></script>
-    <script src="/plugins/isotope/isotope-triger.js"></script>
-    <script src="/plugins/countdown/jquery.syotimer.js"></script>
-    <script src="/plugins/slick/slick.min.js"></script>
-    <script src="/js/custom.js"></script>
+    <script src="{{ site.url }}/plugins/jquery/jquery-2.2.4.min.js"></script>
+    <script src="{{ site.url }}/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{ site.url }}/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="{{ site.url }}/assets/bootstrap.min.js"></script>
+    <script src="{{ site.url }}/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ site.url }}/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ site.url }}/plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+    <script src="{{ site.url }}/plugins/datepicker/bootstrap-datepicker.js"></script>
+    <script src="{{ site.url }}/plugins/jquery/waypoints.min.js"></script>
+    <script src="{{ site.url }}/plugins/counter-up/jquery.counterup.min.js"></script>
+    <script src="{{ site.url }}/plugins/isotope/isotope.min.js"></script>
+    <script src="{{ site.url }}/plugins/isotope/jquery.fancybox.pack.js"></script>
+    <script src="{{ site.url }}/plugins/isotope/isotope-triger.js"></script>
+    <script src="{{ site.url }}/plugins/countdown/jquery.syotimer.js"></script>
+    <script src="{{ site.url }}/plugins/slick/slick.min.js"></script>
+    <script src="{{ site.url }}/js/custom.js"></script>
   </body>
 </html>
