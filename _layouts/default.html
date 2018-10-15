@@ -12,8 +12,8 @@
     <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/flexwarm-icon.jpg">
     <meta name="apple-mobile-web-app-title" content="Flexwarm">
     <link href="/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-    <link href="/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/bootstrap.css" rel="stylesheet">
+    <link href="/assets/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/plugins/selectbox/select_option1.css">
     <link rel="stylesheet" type="text/css" href="/plugins/datepicker/datepicker.css">
     <link rel="stylesheet" type="text/css" href="/plugins/isotope/jquery.fancybox.css">
@@ -43,38 +43,31 @@
               </button>
               <a class="navbar-brand" href="{{ site.url }}"></a>
             </div>
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}">Contact Us</a></li>
-            </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}">Contact Us</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
       </header>
       {{ content }}
-</div>
-
-
-
-
-<!-- JAVASCRIPTS -->
-<script src="/plugins/jquery/jquery-2.2.4.min.js"></script>
-<script src="/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
-<script src="/plugins/jquery-ui/jquery-ui.min.js"></script>
-<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="/plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="/plugins/datepicker/bootstrap-datepicker.js"></script>
-<script src="/plugins/jquery/waypoints.min.js"></script>
-<script src="/plugins/counter-up/jquery.counterup.min.js"></script>
-<script src="/plugins/isotope/isotope.min.js"></script>
-<script src="/plugins/isotope/jquery.fancybox.pack.js"></script>
-<script src="/plugins/isotope/isotope-triger.js"></script>
-<script src="/plugins/countdown/jquery.syotimer.js"></script>
-<script src="/plugins/slick/slick.min.js"></script>
-<script src="/js/custom.js"></script>
-
-</body>
-
+    </div>
+    <script src="/plugins/jquery/jquery-2.2.4.min.js"></script>
+    <script src="/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+    <script src="/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+    <script src="/plugins/datepicker/bootstrap-datepicker.js"></script>
+    <script src="/plugins/jquery/waypoints.min.js"></script>
+    <script src="/plugins/counter-up/jquery.counterup.min.js"></script>
+    <script src="/plugins/isotope/isotope.min.js"></script>
+    <script src="/plugins/isotope/jquery.fancybox.pack.js"></script>
+    <script src="/plugins/isotope/isotope-triger.js"></script>
+    <script src="/plugins/countdown/jquery.syotimer.js"></script>
+    <script src="/plugins/slick/slick.min.js"></script>
+    <script src="/js/custom.js"></script>
+  </body>
 </html>
