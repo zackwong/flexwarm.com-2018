@@ -65,12 +65,18 @@
               </div>
               <div class="col-sm-3 col-xs-12">
                 <div class="footerContent">
-            <h5>contact us</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod.</p>
+            <h5>Contact Us</h5>
+           
             <ul class="list-unstyled">
-              <li><i class="fa fa-home" aria-hidden="true"></i>61 Park Street, Fifth Avenue, NY</li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i>[88] 657 524 332</li>
-              <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailTo:info@star-travel.com">info@star-travel.com</a></li>
+              <li><i class="fa fa-home"></i>{{ site.address }}</li>
+              <li><i class="fa fa-phone"></i>{{ site.tel }}</li>
+              <li><i class="fa fa-envelope-o"></i><a href="mailTo:{{ site.email }}">{{ site.email }}</a></li>
+            </ul>
+            <ul class="list-inline">
+              <li><a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="{{ site.youtube }}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
             </ul>
           </div>
         </div>
