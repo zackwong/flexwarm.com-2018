@@ -25,8 +25,8 @@
     <link href="{{ site.url }}/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.url }}/assets/color.css">
     <!--[if lt IE 9]>
-      <script src="{{ site.url }}/assets/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/assets/respond.min.js"></script>
+      <script src="/assets/html5shiv.min.js"></script>
+      <script src="/assets/respond.min.js"></script>
     <![endif]-->
   </head>
   <body class="body-wrapper {% if page.category == 'home' %}changeHeader{% endif %}">
@@ -48,10 +48,10 @@
                 <li class="dropdown singleDrop {% if page.category == 'about' %}active{% endif %}">
                   <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                   <ul class="dropdown-menu dropdown-menu-right">
-                    <li class="{% if page.title == 'About Flexwarm' %}active{% endif %}"><a href="{{ site.url }}/about/">About Flexwarm</a></li>
-                    <li class="{% if page.title == 'About Flexwarm' %}active{% endif %}"><a href="{{ site.url }}//"></a></li>
-                    <li class="{% if page.title == 'About Flexwarm' %}active{% endif %}"><a href="{{ site.url }}//"></a></li>
-                    <li class="{% if page.title == 'About Flexwarm' %}active{% endif %}"><a href="{{ site.url }}//"></a></li>
+                    <li><a href="{{ site.url }}/about/">About Flexwarm</a></li>
+                    <li><a href="{{ site.url }}//"></a></li>
+                    <li><a href="{{ site.url }}//"></a></li>
+                    <li><a href="{{ site.url }}//"></a></li>
                   </ul>
                 </li>
                 <li class="{% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
