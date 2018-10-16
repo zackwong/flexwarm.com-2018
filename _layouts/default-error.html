@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.full_title %}{{ page.full_title }}{% else %}{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}{% endif %}</title>
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="apple-touch-icon" href="{{ site.url }}/images/assets/flexwarm-icon.jpg">
+    <meta name="apple-mobile-web-app-title" content="Flexwarm">
+    <link href="{{ site.url }}/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/bootstrap.css" rel="stylesheet">
+    <link href="/assets/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/selectbox/select_option1.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/datepicker/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/isotope/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/plugins/isotope/isotope.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="{{ site.url }}/plugins/revolution/css/navigation.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.url }}/assets/color.css">
+    <!--[if lt IE 9]>
+      <script src="/assets/html5shiv.min.js"></script>
+      <script src="/assets/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="body-wrapper {% if page.category == 'home' %}changeHeader{% endif %}">
+    {{ content }}
+  </body>
+</html>
