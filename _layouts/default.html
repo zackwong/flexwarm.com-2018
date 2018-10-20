@@ -62,7 +62,15 @@
                     <li><a href="{{ site.url }}/flexwarm/">Flexwarm Heating Technology</a></li>
                   </ul>
                 </li>
-                <li class="{% if page.category == 'app' %}active{% endif %}"><a href="{{ site.url }}/app/">App</a></li>
+                <li class="dropdown singleDrop {% if page.category == 'products' %}active{% endif %}">
+                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="{{ site.url }}/home-appliance/">Home Appliance</a></li>
+                    <li><a href="{{ site.url }}/smart-clothes/">Smart Clothes</a></li>
+                    <li><a href="{{ site.url }}/smart-wear/">Smart Wear</a></li>
+                    <li><a href="{{ site.url }}/app/">App</a></li>
+                  </ul>
+                </li>
                 <li class="{% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
                 <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
               </ul>
