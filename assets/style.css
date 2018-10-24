@@ -2268,14 +2268,14 @@ header {
 
 @media (max-width: 767px) {
   .navbar-brand {
-    background-size: 152px 40px !important;
+    background-size: 216px 40px !important;
     margin-top: 0;
   }
 }
 
 @media (min-width: 768px) {
   .navbar-brand {
-    background-size: 203px 54px !important;
+    background-size: 292px 54px !important;
   }
 }
 
@@ -2311,7 +2311,7 @@ header {
 
 @media (max-width: 767px) {
   .lightHeader .navbar-brand {
-    background-size: 152px 40px !important;
+    background-size: 216px 40px !important;
     margin-top: 0;
     height: 83px;
   }
@@ -2319,7 +2319,7 @@ header {
 
 @media (min-width: 768px) {
   .lightHeader .navbar-brand {
-    background-size: 203px 54px !important;
+    background-size: 292px 54px !important;
     height: 95px;
   }
 }
