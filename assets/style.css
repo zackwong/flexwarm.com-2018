@@ -2260,7 +2260,7 @@ header {
   background-position: 15px 19px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 514px;
+  width: 235px;
   height: 95px;
   background-color: transparent;
   padding: 24px 15px 24px 15px;
@@ -2268,14 +2268,14 @@ header {
 
 @media (max-width: 767px) {
   .navbar-brand {
-    background-size: 216px 40px !important;
+    background-size: 152px 40px !important;
     margin-top: 0;
   }
 }
 
 @media (min-width: 768px) {
   .navbar-brand {
-    background-size: 292px 54px !important;
+    background-size: 203px 54px !important;
   }
 }
 
@@ -2311,7 +2311,7 @@ header {
 
 @media (max-width: 767px) {
   .lightHeader .navbar-brand {
-    background-size: 216px 40px !important;
+    background-size: 152px 40px !important;
     margin-top: 0;
     height: 83px;
   }
@@ -2319,7 +2319,7 @@ header {
 
 @media (min-width: 768px) {
   .lightHeader .navbar-brand {
-    background-size: 292px 54px !important;
+    background-size: 203px 54px !important;
     height: 95px;
   }
 }
@@ -3838,7 +3838,7 @@ header {
   background-position: 15px 19px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 514px;
+  width: 235px;
   height: 95px;
   background-color: transparent;
   padding: 24px 15px 24px 15px;
@@ -3889,7 +3889,7 @@ header {
 
 @media (max-width: 767px) {
   .lightHeader .navbar-brand {
-    background-size: 216px 40px !important;
+    background-size: 152px 40px !important;
     margin-top: 0;
     height: 83px;
   }
@@ -3897,7 +3897,7 @@ header {
 
 @media (min-width: 768px) {
   .lightHeader .navbar-brand {
-    background-size: 292px 54px !important;
+    background-size: 203px 54px !important;
     height: 95px;
   }
 }
