@@ -33,6 +33,8 @@
 	8.1 BLOG POST LIST ITEM
 	8.2 BLOG POST SIDEBAR
 	8.3 BLOG SINGLE POST
+10 CONTACT US
+  10.1 CONTACT INFO
 16 ADMIN
   16.9 PROFILE SECTION
 
@@ -9107,6 +9109,61 @@ header {
 .commentsArea .media .media-body .btn-link:hover {
   color: #ff891e;
   text-decoration: none;
+}
+
+/*================= 10 CONTACT US ==================*/
+/*=== 10.1 CONTACT INFO ===*/
+.contactInfo h2 {
+  font-size: 26px;
+  color: #222222;
+  margin-bottom: 13px;
+}
+
+.contactInfo p {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .contactInfo p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactInfo p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.contactInfo .media {
+  margin-bottom: 20px;
+}
+
+.contactInfo .media .media-left {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  background-color: #ff891e;
+  color: #ffffff;
+  padding-right: 0;
+  margin-right: 25px;
+  font-size: 35px;
+  float: left;
+}
+
+.contactInfo .media p {
+  margin-bottom: 0;
+}
+
+.contactInfo .media p a {
+  color: #969696;
+}
+
+.contactInfo .media .media-body h4 {
+  font-weight: 400;
 }
 
 /*================= 16 ADMIN ==================*/
