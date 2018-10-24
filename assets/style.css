@@ -24,8 +24,6 @@
 	5.5 PACKAGES SECTION
 6. HOME
 	6.1 BANNER
-	6.2 PROMOTION
-	6.3 COUNT UP
 7. PACKAGES
 	7.1 PACKAGES LIST
 	7.2 SINGLE PACKAGE FULL WIDTH
@@ -3919,7 +3917,7 @@ header {
 
 /*=== 5.4 PAGE TITLE SECTION ===*/
 .pageTitle {
-  background-image: url("../img/pages/page-title-bg.jpg");
+  background-image: url("../images/assets/page-title-bg.jpg");
   width: 100%;
   background-size: cover;
   background-position: center top;
@@ -5339,122 +5337,6 @@ header {
   height: 14px !important;
   border: 2px solid white !important;
   margin-bottom: -3px !important;
-}
-
-/*=== 6.2 PROMOTION ===*/
-.promotionWrapper {
-  background-image: url("../img/home/promotion/promotion-1.jpg");
-  background-attachment: fixed;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  height: 403px;
-}
-
-.promotionWrapper .promotionTable {
-  display: table;
-  height: 403px;
-  width: 100%;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo {
-  text-align: center;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo span {
-  line-height: 21px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 18px;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo h2 {
-  font-size: 26px;
-  line-height: 33px;
-  color: #ffffff;
-  margin-bottom: 40px;
-  margin: 10px 0 40px 0;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo .rating li {
-  color: #fec701;
-  padding: 0;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo p {
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0 0 20px 0;
-  color: #ffffff;
-}
-
-.promotionWrapper .promotionTable .promotionTableInner .promotionInfo .buttonCustomPrimary {
-  padding: 0 16px;
-}
-
-/*=== 6.3 COUNT UP ===*/
-.countUpSection {
-  background-image: url("../img/home/promotion/promotion-2.jpg");
-  background-attachment: fixed;
-  width: 100%;
-  background-size: cover;
-  background-position: center center !important;
-  color: #ffffff;
-  padding: 130px 0;
-}
-
-.countUpSection .icon {
-  width: 96px;
-  height: 96px;
-  background-color: rgba(255, 137, 30, 0.9);
-  border-radius: 100%;
-  display: inline-block;
-  margin-bottom: 15px;
-}
-
-.countUpSection .icon i {
-  font-size: 42px;
-  line-height: 96px;
-}
-
-.countUpSection .counter {
-  line-height: 40px;
-}
-
-@media (max-width: 767px) {
-  .countUpSection .counter {
-    font-size: 32px;
-  }
-}
-
-@media (min-width: 768px) {
-  .countUpSection .counter {
-    font-size: 52px;
-  }
-}
-
-.countUpSection h5 {
-  line-height: 21px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-  .countUpSection h5 {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  .countUpSection h5 {
-    font-size: 15px;
-  }
 }
 
 /*================= 7. PACKAGES ==================*/
