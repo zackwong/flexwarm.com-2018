@@ -1,17 +1,5 @@
 jQuery(document).ready(function(){
    'use strict';
-//============================== CLOSE DROPDOWN SELECT =========================
-  $('.ed-datepicker input.form-control').focus(function() {
-    $('.sbOptions').css('display', 'none');
-  });
-
-  $('.ed-datepicker').datepicker({
-  format: 'dd/mm/yyyy',
-  autoclose: true,
-  orientation: 'top auto',
-  todayBtn: 'linked',
-  todayHighlight: true
-  });
 
 //============================== ALL DROPDOWN ON HOVER =========================
   $('.dropdown').hover(function() {
@@ -20,66 +8,6 @@ jQuery(document).ready(function(){
   function() {
     $(this).removeClass('open');
   });
-
-//============================== Rs-Slider =========================
-  jQuery('.custom_rev_slider').show().revolution({
-    delay: 5000,
-    sliderLayout: 'fullwidth',
-    sliderType:'standard',
-    responsiveLevels: [1201, 1025, 768, 480],
-    gridwidth:[1201, 1025, 769, 480],
-    gridheight: [745, 744, 644, 544],
-    dottedOverlay: 'twoxtwo',
-    navigation: {
-      arrows: {
-        enable: true,
-        style: 'hesperiden',
-        hide_onleave: false
-      },
-      bullets: {
-          enable: true,
-          style: 'hesperiden',
-          hide_onleave: false,
-          h_align: 'center',
-          v_align: 'bottom',
-          h_offset: 0,
-          v_offset: 20,
-          space: 15
-      }
-    },
-    disableProgressBar:'on'
-  });
-// For Video
-  jQuery('#rev_video_slider').show().revolution({
-    dottedOverlay:'none',
-    delay:9000,
-    navigation: {
-      onHoverStop:'off'
-    },
-    responsiveLevels:[1240,1024,778,480],
-    visibilityLevels:[1240,1024,778,480],
-    gridwidth:[1240,1024,778, 480],
-    gridheight:[750, 550, 425, 250],
-    shadow:0,
-    spinner:'off',
-    stopLoop:'on',
-    stopAfterLoops:0,
-    stopAtSlide:1,
-    shuffle:'off',
-    autoHeight:'off',
-    disableProgressBar:'on',
-    hideThumbsOnMobile:'off',
-    hideSliderAtLimit:0,
-    hideCaptionAtLimit:0,
-    hideAllCaptionAtLilmit:0,
-    debugMode:false,
-    fallbacks: {
-      simplifyAll:'off',
-      nextSlideOnWindowFocus:'off',
-      disableFocusListener:false
-    }
-  });
-
 
 //============================== CHANGE HEADER ON MOUSE SCROLL =========================
   var header = $('.changeHeader .navbar-fixed-top');
