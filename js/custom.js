@@ -100,9 +100,6 @@ jQuery(document).ready(function(){
 
   });
 
-//============================== SELECT BOX =========================
-  $('.select-drop').selectbox();
-
 //============================== Date-picker =========================
   $('.datepicker').datepicker({
     startDate: 'dateToday',
@@ -283,14 +280,3 @@ jQuery(document).ready(function(){
   ]
 
   });
-
-
-//============================== GOOGLE MAP =========================
-
-  $('.google-maps').click(function(){
-			$(this).find('iframe').addClass('clicked');
-  }).mouseleave(function(){
-			$(this).find('iframe').removeClass('clicked');
-  });
-
-});
