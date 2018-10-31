@@ -2379,6 +2379,12 @@ header {
   background-color: #262a2e;
   display: block;
 }
+.brownSection {
+  width: 100%;
+  padding: 42px 0;
+  background-color: #be9457;
+  display: block;
+}
 /*=== 5.4 PAGE TITLE SECTION ===*/
 .pageTitle {
   background-image: url("../images/assets/page-title-bg.jpg");
