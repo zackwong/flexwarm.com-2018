@@ -2372,7 +2372,13 @@ header {
   background-color: #ffffff;
   display: block;
 }
-
+/*=== 5.2 DARK SECTION ===*/
+.darkSection {
+  width: 100%;
+  padding: 42px 0;
+  background-color: #262a2e;
+  display: block;
+}
 /*=== 5.4 PAGE TITLE SECTION ===*/
 .pageTitle {
   background-image: url("../images/assets/page-title-bg.jpg");
