@@ -8656,66 +8656,6 @@ header {
   }
 }
 
-/*=== 3.3 DARK HEADER ===*/
-.darkHeader {
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  background-color: #e50032;
-}
-
-@media (max-width: 767px) {
-  .darkHeader {
-    height: 83px;
-  }
-}
-
-@media (min-width: 768px) {
-  .darkHeader {
-    height: 95px;
-  }
-}
-
-.darkHeader .navbar-brand {
-  background-image: url("../images/assets/flexwarm-logo.png");
-  background-position: 15px 19px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media (max-width: 767px) {
-  .darkHeader .navbar-brand {
-    background-size: 152px 40px !important;
-    margin-top: 0;
-    height: 83px;
-  }
-}
-
-@media (min-width: 768px) {
-  .darkHeader .navbar-brand {
-    background-size: 203px 54px !important;
-    height: 95px;
-  }
-}
-
-.darkHeader .navbar-nav > li > a:hover {
-  color: #ff891e !important;
-  border-color: #ff891e;
-}
-
-@media (max-width: 767px) {
-  .darkHeader .navbar-nav > li > a {
-    border-bottom: 1px solid #ffffff;
-    color: #000000 !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .darkHeader .navbar-nav > li > a {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    color: #ffffff !important;
-  }
-}
-
 /*=== 3.4 HEADER TOP ===*/
 .headerTop {
   display: none;
