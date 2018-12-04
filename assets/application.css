@@ -11243,12 +11243,12 @@ a,
 .travelGuideSection .travelGuideContent .buttonCustomPrimary:hover,
 .hotelListSidebar .panel-heading-title,
 .signupLoging .modal-header {
-  border-color: #e50032;
+  border-color: #fbc93d;
 }
 
 .navbar-fixed-top.lightHeader .navbar-nav > li > a:hover,
 .teamMember .maskingArea .list-inline li a:hover {
-  border-color: #ffffff;
+  border-color: #fbc93d;
 }
 
 .countUpSection .icon {
