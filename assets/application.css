@@ -11222,8 +11222,8 @@ a,
 .packageSAleSection .buttonSale .buttonTransparent:hover,
 .profileSection .profileContent .profileSocialIcon a:hover i,
 .settingSection .settingContent .changeSetting .form-check .checkbox-custom:checked + .checkbox-custom-label:before {
-  background-color: #fbc93d;
-  border-color: #fbc93d;
+  background-color: #e50032;
+  border-color: #e50032;
 }
 
 .modal.bookingModal .modal-dialog .modal-content,
