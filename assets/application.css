@@ -9742,7 +9742,7 @@ header {
 }
 
 .lightHeader .navbar-nav > li > a {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .lightHeader .navbar-nav > li > a:hover {
@@ -11248,7 +11248,7 @@ a,
 
 .navbar-fixed-top.lightHeader .navbar-nav > li > a:hover,
 .teamMember .maskingArea .list-inline li a:hover {
-  border-color: #e50032;
+  border-color: #ffffff;
 }
 
 .countUpSection .icon {
