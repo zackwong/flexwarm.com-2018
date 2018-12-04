@@ -11140,7 +11140,7 @@ a,
 .subscribSection .amazingSelectbox .searchHotelBtn .buttonCustomPrimary,
 .searchFilter .sbOptions a:hover,
 .sort-by-section .sort-select-box .sbHolder .sbOptions li a:hover {
-  color: #e50032 !important;
+  color: #ffffff !important;
 }
 
 .searchTour .sbOptions a:hover,
@@ -11243,12 +11243,12 @@ a,
 .travelGuideSection .travelGuideContent .buttonCustomPrimary:hover,
 .hotelListSidebar .panel-heading-title,
 .signupLoging .modal-header {
-  border-color: #fbc93d;
+  border-color: #000000;
 }
 
 .navbar-fixed-top.lightHeader .navbar-nav > li > a:hover,
 .teamMember .maskingArea .list-inline li a:hover {
-  border-color: #fbc93d;
+  border-color: #e50032;
 }
 
 .countUpSection .icon {
