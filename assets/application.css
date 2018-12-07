@@ -1,3 +1,11 @@
+@font-face {font-family: "AlternateGothicEF";
+    src: url("fonts/flexwarm.eot");
+    src: url("fonts/flexwarm.eot?#iefix") format("embedded-opentype"),
+    url("fonts/flexwarm.woff2") format("woff2"),
+    url("fonts/flexwarm.woff") format("woff"),
+    url("fonts/flexwarm.ttf") format("truetype"),
+    url("fonts/flexwarm.svg#AlternateGothicEF") format("svg");
+}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
