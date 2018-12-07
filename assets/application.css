@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "AlternateGothicEF";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -105,7 +105,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "AlternateGothicEF";
   font-size: 1em;
 }
 button,
@@ -113,8 +113,8 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  font: inherit;
+  color: "AlternateGothicEF";
+  font: "AlternateGothicEF";
   margin: 0;
 }
 button {
@@ -203,7 +203,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -213,9 +213,9 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: "AlternateGothicEF";
+  font-size: "AlternateGothicEF";
+  line-height: "AlternateGothicEF";
 }
 a {
   color: #337ab7;
@@ -304,10 +304,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "AlternateGothicEF";
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 h1 small,
 h2 small,
@@ -1567,7 +1567,7 @@ legend {
   padding: 0;
   margin-bottom: 20px;
   font-size: 21px;
-  line-height: inherit;
+  line-height: "AlternateGothicEF";
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
@@ -3568,7 +3568,7 @@ button.list-group-item {
 .list-group-item.disabled .list-group-item-heading,
 .list-group-item.disabled:hover .list-group-item-heading,
 .list-group-item.disabled:focus .list-group-item-heading {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text,
@@ -3592,7 +3592,7 @@ button.list-group-item {
 .list-group-item.active .list-group-item-heading > .small,
 .list-group-item.active:hover .list-group-item-heading > .small,
 .list-group-item.active:focus .list-group-item-heading > .small {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
@@ -3609,7 +3609,7 @@ button.list-group-item-success {
 }
 a.list-group-item-success .list-group-item-heading,
 button.list-group-item-success .list-group-item-heading {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 a.list-group-item-success:hover,
 button.list-group-item-success:hover,
@@ -3638,7 +3638,7 @@ button.list-group-item-info {
 }
 a.list-group-item-info .list-group-item-heading,
 button.list-group-item-info .list-group-item-heading {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 a.list-group-item-info:hover,
 button.list-group-item-info:hover,
@@ -3667,7 +3667,7 @@ button.list-group-item-warning {
 }
 a.list-group-item-warning .list-group-item-heading,
 button.list-group-item-warning .list-group-item-heading {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 a.list-group-item-warning:hover,
 button.list-group-item-warning:hover,
@@ -3696,7 +3696,7 @@ button.list-group-item-danger {
 }
 a.list-group-item-danger .list-group-item-heading,
 button.list-group-item-danger .list-group-item-heading {
-  color: inherit;
+  color: "AlternateGothicEF";
 }
 a.list-group-item-danger:hover,
 button.list-group-item-danger:hover,
@@ -3918,7 +3918,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: "AlternateGothicEF";
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -4293,7 +4293,7 @@ button.close {
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font-size: "AlternateGothicEF";
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4449,7 +4449,7 @@ button.close {
   text-align: center;
 }
 .fa-stack-1x {
-  line-height: inherit;
+  line-height: "AlternateGothicEF";
 }
 .fa-stack-2x {
   font-size: 2em;
@@ -6654,7 +6654,7 @@ button.close {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
   font-size: 14px;
   line-height: 21px;
   color: #969696;
@@ -6679,7 +6679,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
   text-transform: uppercase;
   color: #262a2e;
   margin-top: 0;
@@ -8531,7 +8531,7 @@ header {
 
 .headerTop .headerTopNav .headerTopNavbar li a {
   color: #969696;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
   font-size: 13px;
   line-height: 21px;
 }
@@ -8685,7 +8685,7 @@ header {
 
 .headerTop .headerTopNav .headerTopNavbar li a {
   color: #969696;
-  font-family: 'Roboto', sans-serif;
+  font-family: "AlternateGothicEF";
   font-size: 13px;
   line-height: 21px;
 }
@@ -8780,7 +8780,7 @@ header {
   margin-top: 25px;
   margin-bottom: 35px;
   text-transform: uppercase;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
 }
 
 .footerContent p {
@@ -9791,7 +9791,7 @@ header {
 
 .headerTop .headerTopNav .headerTopNavbar li a {
   color: #969696;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
   font-size: 13px;
   line-height: 21px;
 }
@@ -9936,7 +9936,7 @@ header {
   margin-top: 25px;
   margin-bottom: 35px;
   text-transform: uppercase;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "AlternateGothicEF";
 }
 
 .footerContent p {
@@ -11308,7 +11308,7 @@ body.compensate-for-scrollbar {
 .fancybox-bg {
   background: #1e1e1e;
   opacity: 0;
-  transition-duration: inherit;
+  transition-duration: "AlternateGothicEF";
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.47, 0, 0.74, 0.71); }
 
@@ -11552,7 +11552,7 @@ body.compensate-for-scrollbar {
   position: relative;
   transition: color .2s;
   vertical-align: top;
-  visibility: inherit;
+  visibility: "AlternateGothicEF";
   width: 44px; }
 
 .fancybox-button,
