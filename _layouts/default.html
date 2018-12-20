@@ -19,53 +19,44 @@
   </head>
   <body class="body-wrapper">
     <div class="main-wrapper">
-      <header>
-        <nav class="navbar navbar-default navbar-main navbar-fixed-top lightHeader" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="{{ site.url }}"></a>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown singleDrop {% if page.category == 'about' %}active{% endif %}">
-                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="{{ site.url }}/about/">About Flexwarm</a></li>
-                    <li><a href="{{ site.url }}/history/">Flexwarm History</a></li>
-                    <li><a href="{{ site.url }}/team/">Flexwarm Team</a></li>
-                    <li><a href="{{ site.url }}/honors/">Flexwarm Honors</a></li>
-                    <li><a href="{{ site.url }}/factory/">Flexwarm Factory</a></li>
-                    <li><a href="{{ site.url }}/corporate-social-responsibility/">Corporate Social Responsibility</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown singleDrop {% if page.category == 'technologies' %}active{% endif %}">
-                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technologies</a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="{{ site.url }}/flexwarm/">Flexwarm Heating Technology</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown singleDrop {% if page.category == 'products' %}active{% endif %}">
-                  <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a href="{{ site.url }}/home-appliance/">Home Appliance</a></li>
-                    <li><a href="{{ site.url }}/smart-clothes/">Smart Clothes</a></li>
-                    <li><a href="{{ site.url }}/smart-wear/">Smart Wear</a></li>
-                    <li><a href="{{ site.url }}/app/">App</a></li>
-                  </ul>
-                </li>
-                <li class="singleDrop {% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
-                <li class="{% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
+      <header id="luxbar" class="luxbar-fixed">
+      <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox">
+      <div class="luxbar-menu luxbar-menu-right luxbar-menu-red">
+        <div class="container">
+          <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+              <a href="{{ site.url }}"><img src="{{ site.url }}/images/assets/flexwarm-logo.png" width="172" height="45" alt="Flexwarm Logo"></a>
+              <label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item dropdown {% if page.category == 'about' %}active{% endif %}"><a>About</a>
+              <ul>
+                <li class="luxbar-item {% if page.title == 'About Flexwarm' %}active{% endif %}"><a href="{{ site.url }}/about/">About Flexwarm</a></li>
+                <li class="luxbar-item {% if page.title == 'Flexwarm History' %}active{% endif %}"><a href="{{ site.url }}/history/">Flexwarm History</a></li>
+                <li class="luxbar-item {% if page.title == 'Flexwarm Team' %}active{% endif %}"><a href="{{ site.url }}/team/">Flexwarm Team</a></li>
+                <li class="luxbar-item {% if page.title == 'Flexwarm Honors' %}active{% endif %}"><a href="{{ site.url }}/honors/">Flexwarm Honors</a></li>
+                <li class="luxbar-item {% if page.title == 'Flexwarm Factory' %}active{% endif %}"><a href="{{ site.url }}/factory/">Flexwarm Factory</a></li>
+                <li class="luxbar-item {% if page.title == 'Corporate Social Responsibility' %}active{% endif %}"><a href="{{ site.url }}/corporate-social-responsibility/">Corporate Social Responsibility</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+            </li>
+            <li class="luxbar-item dropdown {% if page.category == 'technologies' %}active{% endif %}"><a>Technologies</a>
+              <ul>
+                <li class="luxbar-item {% if page.title == 'Flexwarm Heating Technology' %}active{% endif %}"><a href="{{ site.url }}/flexwarm/">Flexwarm Heating Technology</a></li>
+              </ul>
+            </li>
+            <li class="luxbar-item dropdown {% if page.category == 'products' %}active{% endif %}"><a>Products</a>
+              <ul>
+                <li class="luxbar-item {% if page.title == 'Home Appliance' %}active{% endif %}"><a href="{{ site.url }}/home-appliance/">Home Appliance</a></li>
+                <li class="luxbar-item {% if page.title == 'Smart Clothes' %}active{% endif %}"><a href="{{ site.url }}/smart-clothes/">Smart Clothes</a></li>
+                <li class="luxbar-item {% if page.title == 'Smart Wear' %}active{% endif %}"><a href="{{ site.url }}/smart-wear/">Smart Wear</a></li>
+                <li class="luxbar-item {% if page.title == 'App' %}active{% endif %}"><a href="{{ site.url }}/app/">App</a></li>
+              </ul>
+            </li>
+            <li class="luxbar-item {% if page.category == 'news' %}active{% endif %}"><a href="{{ site.url }}/news/">News</a></li>
+            <li class="luxbar-item {% if page.category == 'contact' %}active{% endif %}"><a href="{{ site.url }}/contact/">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
       {{ content }}
       <footer>
         <div class="footer clearfix">
