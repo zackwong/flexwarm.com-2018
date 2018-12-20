@@ -2973,25 +2973,11 @@ button.list-group-item-danger.active:focus {
 .luxbar-checkbox:checked + .luxbar-menu .luxbar-hamburger-spin span::after {
   transform: rotate(-45deg); }
 
-/******* color variables *******/
-/******* default dark *******/
-.luxbar-menu-dark,
-.luxbar-menu-dark .dropdown ul {
-  background-color: #212121;
-  color: #fff; }
-
-.luxbar-menu-dark .active,
-.luxbar-menu-dark .luxbar-item:hover {
-  background-color: #424242; }
-.luxbar-menu-dark .luxbar-hamburger span,
-.luxbar-menu-dark .luxbar-hamburger span::before,
-.luxbar-menu-dark .luxbar-hamburger span::after {
-  background-color: #fff; }
 
 /******* default material-red *******/
 .luxbar-menu-material-red,
 .luxbar-menu-material-red .dropdown ul {
-  background-color: #b71c1c;
+  background-color: #e50032;
   color: #fff; }
 
 .luxbar-menu-material-red .active,
