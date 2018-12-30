@@ -12,14 +12,15 @@ flexwarm.com-2018
 编辑配置文件及保存: 
 
     server {
-      listen 443 ssl;
+      listen 443 ssl http2;
       server_name flexwarm.com;
       ssl_certificate flexwarm.crt;
       ssl_certificate_key flexwarm.key;
       index index.html;
       root /srv/flexwarm.com-2018/_site;
       error_page 404 /Error.html;
-      ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+      add_header Strict-Transport-Security "max-age=15768000" always;
+      ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
       ssl_ciphers HIGH:!aNULL:!MD5:!DH;
     }
     server {
