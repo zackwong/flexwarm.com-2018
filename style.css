@@ -2008,20 +2008,16 @@ a.thumbnail.active {
 .luxbar-checkbox:checked + .luxbar-menu .luxbar-hamburger-spin span::after {
   transform: rotate(-45deg); }
 
-
-/******* default material-red *******/
-.luxbar-menu-material-red,
-.luxbar-menu-material-red .dropdown ul {
+/*Navigation Color Red*/
+.luxbar-menu-red,.luxbar-menu-red .dropdown ul {
   background-color: #e50032;
-  color: #fff; }
-
-.luxbar-menu-material-red .active,
-.luxbar-menu-material-red .luxbar-item:hover {
+  color: #ffffff;
+  z-index: 1;
+}
+.luxbar-menu-red .active,.luxbar-menu-red .luxbar-item:hover {
   background-color: #c62828; }
-.luxbar-menu-material-red .luxbar-hamburger span,
-.luxbar-menu-material-red .luxbar-hamburger span::before,
-.luxbar-menu-material-red .luxbar-hamburger span::after {
-  background-color: #fff; }
+.luxbar-menu-red .luxbar-hamburger span,.luxbar-menu-red .luxbar-hamburger span::before,.luxbar-menu-red .luxbar-hamburger span::after {
+  background-color: #ffffff; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
