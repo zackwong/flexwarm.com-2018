@@ -2156,8 +2156,6 @@ a.thumbnail.active {
   16.9 PROFILE SECTION
 
 ===================== */
-/*=== MIXINS ===*/
-/*=== VARIABLES ===*/
 /*=== MEDIA QUERY ===*/
 p {
   font-size: 16px;
@@ -4231,26 +4229,7 @@ a:focus {
   }
 }
 
-.bookingDetails {
-  width: 100%;
-  display: block;
-  text-align: center;
-  background-color: #e50032;
-  border-radius: 6px;
-  padding: 25px 55px 15px 55px;
-  min-height: 210px;
-}
-
-.bookingDetails h2 {
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-
-.bookingDetails p {
-  color: #ffffff;
-}
-
-.bookingDetails .buttonTransparent, .bookingDetails .paginationCenter .pagination li:first-child a, .paginationCenter .pagination li:first-child .bookingDetails a, .bookingDetails .paginationCenter .pagination li:last-child a, .paginationCenter .pagination li:last-child .bookingDetails a, .bookingDetails .isotopeFilters ul.filter > li a, .isotopeFilters ul.filter > li .bookingDetails a {
+.buttonTransparent, .paginationCenter .pagination li:first-child a, .paginationCenter .pagination li:first-child .bookingDetails a, .bookingDetails .paginationCenter .pagination li:last-child a, .paginationCenter .pagination li:last-child .bookingDetails a, .bookingDetails .isotopeFilters ul.filter > li a, .isotopeFilters ul.filter > li .bookingDetails a {
   margin-bottom: 10px;
   width: 100%;
   display: block;
@@ -4789,9 +4768,6 @@ a:focus {
   display: block;
 }
 
-
-/*=== MIXINS ===*/
-/*=== VARIABLES ===*/
 /*=== MEDIA QUERY ===*/
 a,
 .sectionTitleDouble h2 span,
@@ -4854,8 +4830,6 @@ a,
 .travelGuideSection .sectionTitleHomeCity h4 span,
 .travelTipsSection .travelTipsContent .meta-content a i,
 .planToureCitySection .planToureContent .content a:hover,
-.searchDestinationSection .headingTitle h2,
-.searchDestinationSection .searchDestination .nav-tabs li.active a,
 .ourPackagesSection .ourPackage .ourPackageContent p span,
 .travelTipsThumbanail .thumbnail .caption .readMoreBtn:hover,
 .footer-light .footerContent .list-item li a:hover,
@@ -4876,19 +4850,6 @@ a,
 .thumbnail.deals .caption .captionTitle h4:hover,
 .travelTipsSection .travelTipsContent .readMoreBtn:hover {
   color: #e50032;
-}
-
-.searchHotel .sbHolder .sbOptions li a:hover,
-.travelGuideSection .travelGuideContent .buttonCustomPrimary:hover,
-.subscribSection .amazingSelectbox .searchHotelBtn .buttonCustomPrimary,
-.searchFilter .sbOptions a:hover,
-.sort-by-section .sort-select-box .sbHolder .sbOptions li a:hover {
-  color: #ffffff !important;
-}
-
-.searchTour .sbOptions a:hover,
-.bookingDrop .sbOptions a:hover {
-  color: #e50032 !important;
 }
 
 .buttonCustomPrimary,
@@ -4914,11 +4875,6 @@ a,
 .progress-wizard > .progress-wizard-step.complete > .progress-wizard-dot,
 .comingContent .list-inline li a:hover,
 .priceTable .panel:hover .priceCircle,
-.tabsPart .nav-tabs li a:hover,
-.bookingDetails,
-.navbar .navbar-btn .btn-nav,
-#rev_slider_wrapper1 #rev_slider_container .slide-layer-4,
-#rev_slider_wrapper1 #rev_slider_container .slide-layer-4:hover,
 .travelTipsSection .buttonCustomPrimary:hover,
 .searchDestinationSection .searchDestination .nav-tabs li.active a::after,
 .searchDestinationSection .searchDestination .tab-content .tab-pane .searchbtn .btn-default,
@@ -4952,30 +4908,11 @@ a,
 .footerContent .list-inline li a:hover,
 .notFoundContent .input-group .input-group-addon,
 .comingContent .input-group .input-group-addon,
-.tabsPart .nav-tabs li.active a,
-#rev_slider_wrapper2 #rev_slider_container .slide-layer-3:hover,
-#rev_slider_wrapper2 #rev_slider_container .slide-layer-4:hover,
 .packageSAleSection .buttonSale .buttonTransparent:hover,
 .profileSection .profileContent .profileSocialIcon a:hover i,
 .settingSection .settingContent .changeSetting .form-check .checkbox-custom:checked + .checkbox-custom-label:before {
   background-color: #e50032;
   border-color: #e50032;
-}
-
-.modal.bookingModal .modal-dialog .modal-content,
-.packagesFilter,
-.countryTabs .nav-tabs > li.active > a,
-.countryTabs .nav-tabs > li.active > a:focus,
-.countryTabs .nav-tabs > li.active > a:hover,
-.progress-wizard > .progress-wizard-step > .progress-wizard-dot,
-.bookingForm .form .checkbox input[type=checkbox],
-.bookingForm .commentsForm .checkbox input[type=checkbox],
-.bookingForm .modal.bookingModal .modal-dialog .modal-content .modal-body .checkbox input[type=checkbox],
-.modal.bookingModal .modal-dialog .modal-content .bookingForm .modal-body .checkbox input[type=checkbox],
-.travelGuideSection .travelGuideContent .buttonCustomPrimary:hover,
-.hotelListSidebar .panel-heading-title,
-.signupLoging .modal-header {
-  border-color: #000000;
 }
 
 .teamMember .maskingArea .list-inline li a:hover {
@@ -4989,10 +4926,6 @@ a,
 .recentOfferSection .needhelpAria .needHelpContent .btn-default {
   background-color: #e50032 !important;
 }
-
-
-body.compensate-for-scrollbar {
-  overflow: hidden; }
 
 .fancybox-active {
   height: auto; }
