@@ -2219,15 +2219,6 @@ a.thumbnail.active {
 /*=== MIXINS ===*/
 /*=== VARIABLES ===*/
 /*=== MEDIA QUERY ===*/
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  list-style-type: none;
-}
-
 p {
   font-size: 16px;
   color: #969696;
