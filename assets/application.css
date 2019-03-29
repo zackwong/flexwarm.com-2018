@@ -5,7 +5,6 @@ body {
   line-height: 21px;
   color: #969696;
   font-weight: 400;
-  overflow-x: hidden;
   margin: 0;
 }
 a {
@@ -49,9 +48,6 @@ a:focus {
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
-figure {
-  margin: 0;
 }
 img {
   vertical-align: middle;
@@ -152,22 +148,6 @@ h6,
 p {
   margin: 0 0 10px;
 }
-.lead {
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.4;
-}
-@media (min-width: 768px) {
-  .lead {
-    font-size: 21px;
-  }
-}
-mark,
-.mark {
-  background-color: #fcf8e3;
-  padding: .2em;
-}
 .text-left {
   text-align: left;
 }
@@ -205,47 +185,7 @@ a.text-primary:hover,
 a.text-primary:focus {
   color: #c62828;
 }
-.bg-primary {
-  color: #fff;
-  background-color: #337ab7;
-}
-a.bg-primary:hover,
-a.bg-primary:focus {
-  background-color: #286090;
-}
-.bg-success {
-  background-color: #dff0d8;
-}
-a.bg-success:hover,
-a.bg-success:focus {
-  background-color: #c1e2b3;
-}
-.bg-info {
-  background-color: #d9edf7;
-}
-a.bg-info:hover,
-a.bg-info:focus {
-  background-color: #afd9ee;
-}
-.bg-warning {
-  background-color: #fcf8e3;
-}
-a.bg-warning:hover,
-a.bg-warning:focus {
-  background-color: #f7ecb5;
-}
-.bg-danger {
-  background-color: #f2dede;
-}
-a.bg-danger:hover,
-a.bg-danger:focus {
-  background-color: #e4b9b9;
-}
-.page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
-}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -4875,16 +4815,6 @@ a,
 .destinations .media-body .list-unstyled li a:hover i,
 .isotopeSelector .overlay .fancybox-pop .overlayInfo h5 span,
 .isotopeSelector:hover h4,
-.navbar-nav > li.open a,
-.navbar-nav > li.open a:hover,
-.navbar-nav > li.open a:focus,
-.navbar-nav > li > a:hover,
-.navbar-nav > li.active a,
-.navbar-nav > li.active a:hover,
-.navbar-nav > li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li a:hover,
-.navbar-nav > li.dropdown.singleDrop .dropdown-menu li a:hover,
-.lightHeader .navbar-nav > li > a:hover,
-.darkHeader .navbar-nav > li > a:hover,
 .footerContent .list-unstyled li a:hover,
 .copyRight .list-inline li a:hover,
 .copyRightText p a:hover,
@@ -4948,17 +4878,6 @@ a,
   color: #e50032;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li.active a,
-.navbar-nav > li.active a:hover,
-.navbar-nav > li.open > a,
-.navbar-nav > li.open > a:hover,
-.navbar-nav > li.open > a:focus,
-.navbar-nav > li.dropdown.megaDropMenu .dropdown-menu .list-unstyled li a:hover,
-.navbar-nav > li.dropdown.singleDrop .dropdown-menu li a:hover,
-.lightHeader .navbar-nav > li > a:hover,
-.darkHeader .navbar-nav > li > a:hover,
-.navbar-fixed-top.lightHeader .navbar-nav > li > a:hover,
 .searchHotel .sbHolder .sbOptions li a:hover,
 .travelGuideSection .travelGuideContent .buttonCustomPrimary:hover,
 .subscribSection .amazingSelectbox .searchHotelBtn .buttonCustomPrimary,
@@ -4981,8 +4900,6 @@ a,
 .datepicker table tr td.focused,
 .thumbnail.deals .discountInfo .discountOffer,
 .priceRange .price-slider-inner .ui-widget-content .ui-slider-range,
-.navbar-nav > li > a:after,
-.navbar-nav > li.dropdown.searchBox a .searchIcon,
 .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo .buttonTransparent:hover,
 .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo .paginationCenter .pagination li:first-child a:hover,
 .paginationCenter .pagination li:first-child .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo a:hover,
@@ -4990,9 +4907,6 @@ a,
 .paginationCenter .pagination li:last-child .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo a:hover,
 .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo .isotopeFilters ul.filter > li a:hover,
 .isotopeFilters ul.filter > li .isotopeSelector .overlay.galleryMasonry .fancybox-pop .overlayInfo a:hover,
-.navbar-nav > li > a:after,
-.navbar-nav > li.dropdown.searchBox a .searchIcon,
-.countryTabs .nav-tabs > li > a:after,
 .blogSidebar .panel .panel-body .input-group .input-group-addon,
 .contactInfo .media .media-left,
 .teamMember .maskingArea .list-inline li a:hover,
@@ -5031,11 +4945,9 @@ a,
 .buttonArea.galleryBtnArea .isotopeFilters ul.filter > li a:hover,
 .isotopeFilters ul.filter > li .buttonArea.galleryBtnArea a:hover,
 .priceRange .price-slider-inner .ui-widget-content .ui-slider-handle,
-.navbar-nav > li.dropdown.searchBox .dropdown-menu li .input-group-addon,
 .footerContent .input-group .input-group-addon:hover,
 .footerContent .list-inline li a:hover,
 .isotopeFilters ul.filter > li.active a,
-.navbar-nav > li.dropdown.searchBox .dropdown-menu li .input-group-addon,
 .footerContent .input-group .input-group-addon:hover,
 .footerContent .list-inline li a:hover,
 .notFoundContent .input-group .input-group-addon,
@@ -5052,10 +4964,6 @@ a,
 
 .modal.bookingModal .modal-dialog .modal-content,
 .packagesFilter,
-.lightHeader .navbar-nav > li > a:hover,
-.darkHeader .navbar-nav > li > a:hover,
-.lightHeader .navbar-nav > li > a:hover,
-.darkHeader .navbar-nav > li > a:hover,
 .countryTabs .nav-tabs > li.active > a,
 .countryTabs .nav-tabs > li.active > a:focus,
 .countryTabs .nav-tabs > li.active > a:hover,
@@ -5070,7 +4978,6 @@ a,
   border-color: #000000;
 }
 
-.navbar-fixed-top.lightHeader .navbar-nav > li > a:hover,
 .teamMember .maskingArea .list-inline li a:hover {
   border-color: #e50032;
 }
