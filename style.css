@@ -2012,7 +2012,6 @@ a.thumbnail.active {
 .luxbar-menu-red,.luxbar-menu-red .dropdown ul {
   background-color: #e50032;
   color: #ffffff;
-  z-index: 1;
 }
 .luxbar-menu-red .active,.luxbar-menu-red .luxbar-item:hover {
   background-color: #c62828; }
