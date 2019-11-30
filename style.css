@@ -37,7 +37,7 @@ th {
   padding: 0;
 }
 a {
-  color: #e50032;
+  color: #df004a;
   text-decoration: none;
 }
 a:hover,
@@ -179,7 +179,7 @@ p {
   color: #777777;
 }
 .text-primary {
-  color: #e50032;
+  color: #df004a;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -1872,7 +1872,7 @@ a.thumbnail.active {
 
 /*Navigation Color Red*/
 .luxbar-menu-red,.luxbar-menu-red .dropdown ul {
-  background-color: #e50032;
+  background-color: #df004a;
   color: #ffffff;
 }
 .luxbar-menu-red .active,.luxbar-menu-red .luxbar-item:hover {
@@ -2217,7 +2217,7 @@ h4 {
 }
 
 a {
-  color: #e50032;
+  color: #df004a;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -2248,7 +2248,7 @@ a:focus {
   height: 45px;
   line-height: 45px;
   border-radius: 4px;
-  background-color: #e50032;
+  background-color: #df004a;
   text-transform: uppercase;
   color: #ffffff !important;
   font-weight: 400;
@@ -2268,8 +2268,8 @@ a:focus {
 }
 
 .buttonTransparent:hover, .paginationCenter .pagination li:first-child a:hover, .paginationCenter .pagination li:last-child a:hover, .isotopeFilters ul.filter > li a:hover {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
   color: #ffffff;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
@@ -2429,7 +2429,7 @@ a:focus {
 
 .thumbnail.deals .discountInfo .discountOffer {
   border-radius: 50%;
-  background-color: #e50032;
+  background-color: #df004a;
 }
 
 @media (max-width: 767px) {
@@ -2664,7 +2664,7 @@ a:focus {
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
-  color: #e50032;
+  color: #df004a;
 }
 
 .thumbnail.deals .caption .captionTitle:hover:focus {
@@ -2676,7 +2676,7 @@ a:focus {
 }
 
 .thumbnail.deals .caption .captionTitle h4:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .thumbnail.deals .caption p {
@@ -2693,7 +2693,7 @@ a:focus {
   float: left;
   line-height: 21px;
   margin: 0;
-  color: #e50032;
+  color: #df004a;
   font-weight: 400;
   font-size: 20px;
 }
@@ -2977,7 +2977,7 @@ a:focus {
 .thumbnail.blogPostItem .caption .detailsInfo h4 {
   line-height: 21px;
   margin-bottom: 0;
-  color: #e50032;
+  color: #df004a;
   font-weight: 400;
   font-size: 20px;
 }
@@ -3066,11 +3066,11 @@ a:focus {
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
-  color: #e50032;
+  color: #df004a;
 }
 
 .thumbnail.citiesContent .caption .media .media-body h4 {
-  color: #e50032;
+  color: #df004a;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -3141,8 +3141,8 @@ a:focus {
 
 .buttonArea.galleryBtnArea .buttonTransparent:hover, .buttonArea.galleryBtnArea .paginationCenter .pagination li:first-child a:hover, .paginationCenter .pagination li:first-child .buttonArea.galleryBtnArea a:hover, .buttonArea.galleryBtnArea .paginationCenter .pagination li:last-child a:hover, .paginationCenter .pagination li:last-child .buttonArea.galleryBtnArea a:hover, .buttonArea.galleryBtnArea .isotopeFilters ul.filter > li a:hover, .isotopeFilters ul.filter > li .buttonArea.galleryBtnArea a:hover {
   color: #ffffff;
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
 }
 
 .blogTitle {
@@ -3155,7 +3155,7 @@ a:focus {
 }
 
 .blogTitle:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .blogInfo {
@@ -3177,7 +3177,7 @@ a:focus {
 }
 
 .blogInfo li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .rating {
@@ -3352,7 +3352,7 @@ a:focus {
 }
 
 .footerContent .list-unstyled li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 @media (min-width: 480px) {
@@ -3416,8 +3416,8 @@ a:focus {
 }
 
 .footerContent .input-group .input-group-addon:hover {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
   -moz-opacity: 1;
@@ -3452,8 +3452,8 @@ a:focus {
 }
 
 .footerContent .list-inline li a:hover {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
   -moz-opacity: 1;
@@ -3518,7 +3518,7 @@ a:focus {
 }
 
 .copyRight .list-inline li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .copyRightText p {
@@ -3531,7 +3531,7 @@ a:focus {
 }
 
 .copyRightText p a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 @media (max-width: 767px) {
@@ -3579,7 +3579,7 @@ a:focus {
 
 .footer-light .footerContent .list-inline li a:hover {
   color: #ffffff;
-  border-color: #e50032;
+  border-color: #df004a;
 }
 
 .footer-light .footerContent .list-item li {
@@ -3591,7 +3591,7 @@ a:focus {
 }
 
 .footer-light .footerContent .list-item li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 /*================= 5. SECTION ==================*/
@@ -3616,7 +3616,7 @@ a:focus {
 .redSection {
   width: 100%;
   padding: 42px 0;
-  background-color: #e50032;
+  background-color: #df004a;
   display: block;
 }
 /*=== 5.4 PAGE TITLE SECTION ===*/
@@ -3760,7 +3760,7 @@ a:focus {
 }
 
 .footerContent .list-unstyled li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 @media (min-width: 480px) {
@@ -3824,8 +3824,8 @@ a:focus {
 }
 
 .footerContent .input-group .input-group-addon:hover {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
   -moz-opacity: 1;
@@ -3860,8 +3860,8 @@ a:focus {
 }
 
 .footerContent .list-inline li a:hover {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
   -moz-opacity: 1;
@@ -3926,7 +3926,7 @@ a:focus {
 }
 
 .copyRight .list-inline li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .copyRightText p {
@@ -3939,7 +3939,7 @@ a:focus {
 }
 
 .copyRightText p a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 @media (max-width: 767px) {
@@ -3987,7 +3987,7 @@ a:focus {
 
 .footer-light .footerContent .list-inline li a:hover {
   color: #ffffff;
-  border-color: #e50032;
+  border-color: #df004a;
 }
 
 .footer-light .footerContent .list-item li {
@@ -3999,7 +3999,7 @@ a:focus {
 }
 
 .footer-light .footerContent .list-item li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 /*================= 7. PACKAGES ==================*/
@@ -4146,7 +4146,7 @@ a:focus {
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
-  color: #e50032;
+  color: #df004a;
 }
 
 .bodyLeft, .bodyRight {
@@ -4235,7 +4235,7 @@ a:focus {
   width: 100%;
   display: block;
   text-align: center;
-  background-color: #e50032;
+  background-color: #df004a;
   border-radius: 6px;
   padding: 25px 55px 15px 55px;
   min-height: 210px;
@@ -4262,7 +4262,7 @@ a:focus {
 .bookingDetails .buttonTransparent:hover, .bookingDetails .paginationCenter .pagination li:first-child a:hover, .paginationCenter .pagination li:first-child .bookingDetails a:hover, .bookingDetails .paginationCenter .pagination li:last-child a:hover, .paginationCenter .pagination li:last-child .bookingDetails a:hover, .bookingDetails .isotopeFilters ul.filter > li a:hover, .isotopeFilters ul.filter > li .bookingDetails a:hover {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #e50032;
+  color: #df004a;
 }
 
 .sidebarPage .packagesList {
@@ -4410,7 +4410,7 @@ a:focus {
 }
 
 .blogSidebar .panel .panel-body .input-group .input-group-addon {
-  background-color: #e50032;
+  background-color: #df004a;
   box-shadow: none;
   border: none;
   border-radius: 4px;
@@ -4446,11 +4446,11 @@ a:focus {
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
-  color: #e50032;
+  color: #df004a;
 }
 
 .blogSidebar .panel .panel-body .list-group .list-group-item:hover .badge {
-  color: #e50032;
+  color: #df004a;
 }
 
 .blogSidebar .panel .panel-body .list-group .list-group-item:last-child {
@@ -4580,7 +4580,7 @@ a:focus {
 }
 
 .tabArea .tab-content .media .media-body .media-heading:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .tabArea .tab-content .media .media-body p {
@@ -4643,7 +4643,7 @@ a:focus {
 }
 
 .blogSinglePost .well .list-inline li a:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 /*================= 10 CONTACT US ==================*/
@@ -4681,7 +4681,7 @@ a:focus {
   height: 75px;
   line-height: 75px;
   text-align: center;
-  background-color: #e50032;
+  background-color: #df004a;
   color: #ffffff;
   padding-right: 0;
   margin-right: 25px;
@@ -4718,7 +4718,7 @@ a:focus {
 }
 
 .profileSection .profileContent .editIconRight i {
-  color: #e50032;
+  color: #df004a;
 }
 
 .profileSection .profileContent .profileTitle {
@@ -4775,13 +4775,13 @@ a:focus {
   line-height: 37px;
   border-radius: 50%;
   text-align: center;
-  color: #e50032;
+  color: #df004a;
   border: 1px solid #e7e7e7;
 }
 
 .profileSection .profileContent .profileSocialIcon a:hover i {
-  border: 1px solid #e50032;
-  background-color: #e50032;
+  border: 1px solid #df004a;
+  background-color: #df004a;
   color: #fff;
 }
 
@@ -4875,7 +4875,7 @@ a,
 .rooms-types-aria .roomCategory .roomAdvantage li a:hover,
 .thumbnail.deals .caption .captionTitle h4:hover,
 .travelTipsSection .travelTipsContent .readMoreBtn:hover {
-  color: #e50032;
+  color: #df004a;
 }
 
 .searchHotel .sbHolder .sbOptions li a:hover,
@@ -4888,7 +4888,7 @@ a,
 
 .searchTour .sbOptions a:hover,
 .bookingDrop .sbOptions a:hover {
-  color: #e50032 !important;
+  color: #df004a !important;
 }
 
 .buttonCustomPrimary,
@@ -4929,7 +4929,7 @@ a,
 .settingSection .settingContent .buttonTransparent,
 .signupLoging .modal-body .btn-default,
 .searchDestinationSection .searchDestination .tab-content .tab-pane .searchbtn .btn-default {
-  background-color: #e50032;
+  background-color: #df004a;
 }
 
 .buttonTransparent:hover,
@@ -4958,8 +4958,8 @@ a,
 .packageSAleSection .buttonSale .buttonTransparent:hover,
 .profileSection .profileContent .profileSocialIcon a:hover i,
 .settingSection .settingContent .changeSetting .form-check .checkbox-custom:checked + .checkbox-custom-label:before {
-  background-color: #e50032;
-  border-color: #e50032;
+  background-color: #df004a;
+  border-color: #df004a;
 }
 
 .modal.bookingModal .modal-dialog .modal-content,
@@ -4979,7 +4979,7 @@ a,
 }
 
 .teamMember .maskingArea .list-inline li a:hover {
-  border-color: #e50032;
+  border-color: #df004a;
 }
 
 .countUpSection .icon {
@@ -4987,7 +4987,7 @@ a,
 }
 
 .recentOfferSection .needhelpAria .needHelpContent .btn-default {
-  background-color: #e50032 !important;
+  background-color: #df004a !important;
 }
 
 
@@ -5776,7 +5776,7 @@ body.compensate-for-scrollbar {
 .error-title {
   font-size: 160px;
   line-height: 180px;
-  color: #e50032;
+  color: #df004a;
 }
 
 /*margin*/
